@@ -12,9 +12,33 @@ namespace Page_130
 {
     public partial class Form1 : Form
     {
+        Guy joe;              //patron Joe
+        Guy bob;              //patron Bob
+        int bank = 100;       //Bank's total money
+
+        public void UpdateForm()
+        {
+            joesCashLabel.Text = joe.Name + " has $" + joe.Cash;
+            bobsCashLabel.Text = bob.Name + " has $" + bob.Cash;
+            bankCashLabel.Text = "The bank has $" + bank;
+        }
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (bank >= 10)
+            {
+                bank -= joe.ReceiveCash(10);
+                UpdateForm();
+            }
+            else
+            {
+                MessageBox.Show("The bank is out of money!");
+            }
         }
     }
 }

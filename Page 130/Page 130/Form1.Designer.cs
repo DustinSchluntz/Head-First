@@ -2,17 +2,7 @@
 {
     partial class Form1
     {
-        Guy joe;              //patron Joe
-        Guy bob;              //patron Bob
-        int bank = 100;       //Bank's total money
-
-        public void UpdateForm()
-        {
-            joesCashLabel.Text = joe.Name + " has $" + joe.Cash;
-            bobsCashLabel.Text = bob.Name + " has $" + bob.Cash;
-            bankCashLabel.Text = "The bank has $" + bank;
-        }
-
+        
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -81,6 +71,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
