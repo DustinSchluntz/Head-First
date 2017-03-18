@@ -26,6 +26,9 @@ namespace Page_130
         public Form1()
         {
             InitializeComponent();
+
+            joe.Cash = 50;                  //Joe gets $50
+            bob.Cash = 100;                 //Bob gets $100
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -39,6 +42,12 @@ namespace Page_130
             {
                 MessageBox.Show("The bank is out of money!");
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            bank += bob.GiveCash(5);
+            UpdateForm();
         }
     }
 }
