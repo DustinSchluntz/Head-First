@@ -1,1 +1,9 @@
 C:\Users\My PC.Dustin\Documents\GitHub\Head-First\Page 130\Page 130\bin\Debug\Page 130.exe.config
+C:\Users\My PC.Dustin\Documents\GitHub\Head-First\Page 130\Page 130\bin\Debug\Page 130.exe
+C:\Users\My PC.Dustin\Documents\GitHub\Head-First\Page 130\Page 130\bin\Debug\Page 130.pdb
+C:\Users\My PC.Dustin\Documents\GitHub\Head-First\Page 130\Page 130\obj\Debug\Page 130.csprojResolveAssemblyReference.cache
+C:\Users\My PC.Dustin\Documents\GitHub\Head-First\Page 130\Page 130\obj\Debug\Page_130.Form1.resources
+C:\Users\My PC.Dustin\Documents\GitHub\Head-First\Page 130\Page 130\obj\Debug\Page_130.Properties.Resources.resources
+C:\Users\My PC.Dustin\Documents\GitHub\Head-First\Page 130\Page 130\obj\Debug\Page 130.csproj.GenerateResource.Cache
+C:\Users\My PC.Dustin\Documents\GitHub\Head-First\Page 130\Page 130\obj\Debug\Page 130.exe
+C:\Users\My PC.Dustin\Documents\GitHub\Head-First\Page 130\Page 130\obj\Debug\Page 130.pdb

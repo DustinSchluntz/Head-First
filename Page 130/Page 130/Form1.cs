@@ -27,8 +27,15 @@ namespace Page_130
         {
             InitializeComponent();
 
+            joe = new Guy();
             joe.Cash = 50;                  //Joe gets $50
+            joe.Name = "Joe";
+
+            bob = new Guy();
             bob.Cash = 100;                 //Bob gets $100
+            bob.Name = "Bob";
+
+            UpdateForm();
         }
 
         private void button1_Click(object sender, EventArgs e)
